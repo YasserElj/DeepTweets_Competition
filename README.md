@@ -39,6 +39,17 @@ The dataset used for this project consists of labeled tweets. The training datas
 - `TweetText`: The text of the tweet.
 - `Label`: The label indicating whether the tweet belongs to Politics or Sports.
 
+### Train data
+
+| TweetId | Label   | TweetText                                             |
+| ------- | ------- | ---------------------------------------------------- |
+| 304271250237304833 | Politics | '#SecKerry: The value of the @StateDept and @USAID is measured, not in dollars, but in terms of our deepest American values.'" |
+| 304834304222064640 | Politics | '@rraina1481 I fear so'                                  |
+| 303568995880144898 | Sports   | 'Watch video highlights of the #wwc13 final between Australia and West Indies at http://t.co/lBXIIk3j' |
+| 304366580664528896 | Sports   | 'RT @chelscanlan: At Nitro Circus at #AlbertPark ! #theymakeitlooksoeasy @ausgrandprix @ChadwickModels #CantWaitForAusGP' |
+| 296770931098009601 | Sports   | '@cricketfox Always a good thing. Thanks for the feedback :-)' |
+
+
 ## Preprocessing
 
 Data preprocessing is a crucial step in natural language processing tasks. In this project, the following preprocessing steps were performed:
